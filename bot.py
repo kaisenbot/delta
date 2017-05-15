@@ -96,4 +96,4 @@ if __name__ == "__main__":
                 except Exception as e:
                         print("{}: {}".format(e).__name__, e)
                         print("Loading of extension {} failed!".format(ext))
-        bot.run('')
+        bot.run('token')
